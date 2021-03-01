@@ -1,0 +1,285 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-28T22:55:35.134Z",
+        "line": 23,
+        "name": "Search labcorp careers options",
+        "description": "",
+        "id": "browse-labcorp-careers;search-labcorp-careers-options;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18218000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the website \"https://www.labcorp.com/\" using a chrome browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.labcorp.com/",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_open_the_website_using_a_chrome_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1448000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I find the Careers link",
+            "match": {
+              "location": "stepDefinitions.LabcorpStedefinitions.i_find_the_Careers_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6110000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the Careers link",
+            "match": {
+              "location": "stepDefinitions.LabcorpStedefinitions.i_click_the_Careers_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6829000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Search for \"QA Test Automation Developer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA Test Automation Developer",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.search_for(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get a list of options that has \"Senior QA Test Automation Developer / Engineer\" with \"Durham, North Carolina\" posted on \"12/10/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Senior QA Test Automation Developer / Engineer",
+                  "offset": 34
+                },
+                {
+                  "val": "Durham, North Carolina",
+                  "offset": 88
+                },
+                {
+                  "val": "12/10/2020",
+                  "offset": 123
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_get_a_list_of_options_that_has_with_posted_on(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5092000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate the job title, location and job id \"20-85412\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20-85412",
+                  "offset": 47
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_validate_the_job_title_location_and_job_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I confirm first sentence of third paragraph under Description/Intro as \"The right candidate for this role will participate in the test automation technology development and best practice models.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The right candidate for this role will participate in the test automation technology development and best practice models.",
+                  "offset": 72
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_confirm_first_sentence_of_third_paragraph_under_Description_Intro_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I confirm second bullet point under Management Support as \"Prepare test plans, budgets, and schedules.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prepare test plans, budgets, and schedules.",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_confirm_second_bullet_point_under_Management_Support_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I confirm third requirement as \"5+ years of experience in QA automation development and scripting.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5+ years of experience in QA automation development and scripting.",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_confirm_third_requirement_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I confirm first suggested automation tool to be familiar with contains \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 72
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_confirm_first_suggested_automation_tool_to_be_familiar_with_contains(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5469000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click Apply Now",
+            "match": {
+              "location": "stepDefinitions.LabcorpStedefinitions.i_click_Apply_Now()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3175000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I validate on External Page that the job title is \"Senior QA Test Automation Developer / Engineer\", location is \"Durham, NC\" and job id is \"20-85412\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Senior QA Test Automation Developer / Engineer",
+                  "offset": 51
+                },
+                {
+                  "val": "Durham, NC",
+                  "offset": 113
+                },
+                {
+                  "val": "20-85412",
+                  "offset": 140
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_validate_on_external_page_that_the_job_title_location_and_job_id(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2771000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I confirm on External Page first sentence of third paragraph under Description/Intro as \"The right candidate for this role will participate in the test automation technology development and best practice models.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The right candidate for this role will participate in the test automation technology development and best practice models.",
+                  "offset": 89
+                }
+              ],
+              "location": "stepDefinitions.LabcorpStedefinitions.i_confirm_on_external_page_first_sentence_of_third_paragraph_under_description_intro_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4056000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click to return to Job Search",
+            "match": {
+              "location": "stepDefinitions.LabcorpStedefinitions.i_click_to_return_to_Job_Search()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@lc_interview"
+          },
+          {
+            "name": "@lc1"
+          }
+        ]
+      }
+    ],
+    "name": "Browse LabCorp Careers",
+    "description": "",
+    "id": "browse-labcorp-careers",
+    "keyword": "Feature",
+    "uri": "file:features/Labcorp.feature",
+    "tags": [
+      {
+        "name": "@lc_interview",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

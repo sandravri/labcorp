@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="54.323">
+<testcase classname="Browse LabCorp Careers" name="Search labcorp careers options" time="53.819">
+<system-out><![CDATA[Given I open the website "https://www.labcorp.com/" using a chrome browser..passed
+And I find the Careers link.................................................passed
+When I click the Careers link...............................................passed
+And Search for "QA Test Automation Developer"...............................passed
+And I get a list of options that has "Senior QA Test Automation Developer / Engineer" with "Durham, North Carolina" posted on "12/10/2020".passed
+Then I validate the job title, location and job id "20-85412"...............passed
+And I confirm first sentence of third paragraph under Description/Intro as "The right candidate for this role will participate in the test automation technology development and best practice models.".passed
+And I confirm second bullet point under Management Support as "Prepare test plans, budgets, and schedules.".passed
+And I confirm third requirement as "5+ years of experience in QA automation development and scripting.".passed
+And I confirm first suggested automation tool to be familiar with contains "Selenium".passed
+When I click Apply Now......................................................passed
+Then I validate on External Page that the job title is "Senior QA Test Automation Developer / Engineer", location is "Durham, NC" and job id is "20-85412".passed
+And I confirm on External Page first sentence of third paragraph under Description/Intro as "The right candidate for this role will participate in the test automation technology development and best practice models.".passed
+And I click to return to Job Search.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
