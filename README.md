@@ -1,3 +1,3 @@
 # labcorp
-Working out the scneario provided
+Working out the scenario provided
 This is purely for testing and showcasing POM style !
